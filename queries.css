@@ -1,0 +1,76 @@
+@media only screen and (max-width: 1000px) {
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  section body div div p {
+    align-items: center;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+  }
+
+  section div div h3 {
+    text-align: center;
+    width: 100%;
+    margin-right: 0%;
+  }
+  section div a {
+    width: 50%;
+  }
+  section div div {
+    align-items: center;
+  }
+
+  section div div p {
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  section div div ul li {
+    text-align: center;
+    width: 100%;
+  }
+
+  section div div div p {
+    text-align: center;
+    margin: 0%;
+  }
+
+  #GALERII {
+    align-content: center;
+  }
+
+  .gallery {
+    width: 90%;
+    margin-left: 0%;
+    margin-right: 0%;
+    align-items: center;
+    margin-left: 5%;
+  }
+
+  @media only screen and (max-width: 550px) {
+    h2 {
+      text-align: center;
+      width: 100%;
+      margin: 0;
+      margin-bottom: 20%;
+    }
+    section div div div p {
+      text-align: center;
+      margin: 0%;
+      font-size: 35px;
+    }
+    #email-number {
+      display: block;
+      justify-content: center;
+      margin-bottom: 10px;
+      font-size: 26px;
+    }
+    img.responsive {
+      width: 300px;
+    }
+  }
+}

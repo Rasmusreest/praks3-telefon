@@ -1,0 +1,273 @@
+/*-- VEEBILEHE TAUST --*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url(taust.jpg);
+}
+
+/*-- IMPORDITUD FONTID --*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script&family=Indie+Flower&family=Long+Cang&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@100&display=swap");
+
+/*-- MENÜÜ --*/
+.topnav {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.topnav a.active {
+  background-color: rgb(122, 7, 7);
+  color: white;
+}
+
+/* --PEALKIRI JA NIMI-- */
+#background-box {
+  background-color: rgb(122, 7, 7);
+  padding: 50px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 50%;
+}
+
+main {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 2px 5px black;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 100px;
+  text-transform: none;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 70px;
+  top: 50px;
+  margin: 2%;
+  font-family: "Libre Baskerville", serif;
+}
+
+/*-- MINUST/OSKUSED --*/
+.oskused {
+  text-align: left;
+  align-content: flex-end;
+  margin-top: 0px;
+  text-shadow: 5px 2px 5px black;
+}
+
+body h3 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5px;
+  text-shadow: 5px 2px 5px black;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+  font-size: 50px;
+  margin-left: 5%;
+  text-shadow: 5px 2px 5px black;
+}
+
+body h3 {
+  text-align: right;
+  margin-right: 10%;
+  color: white;
+}
+
+#Oskused-pilt-minust {
+  background-color: rgb(122, 7, 7);
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 30px;
+  margin-bottom: 40%;
+  text-shadow: 5px 2px 5px black;
+}
+
+body p {
+  color: white;
+  margin-top: 50px;
+  text-shadow: 5px 2px 5px black;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+}
+
+div div div p {
+  text-decoration: none;
+  font-family: "Grandstander", cursive;
+  font-size: 45px;
+}
+
+li {
+  color: white;
+  font-size: 35px;
+  text-align: left;
+}
+
+.Jutt {
+  color: white;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-top: 10%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 150px 400px;
+}
+
+.nimi {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-size: 45px;
+}
+
+.oskused-listis {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  font-family: "Titillium Web", sans-serif;
+  padding-left: 0%;
+}
+
+.oskus {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-size: 45px;
+}
+
+#Pilt_minust {
+  size: 400px 400px;
+}
+
+/*-- GALERII --*/
+.gallery {
+  margin: 50px;
+  border: 3px solid rgb(255, 255, 255);
+  width: 20%;
+  margin-left: 7%;
+  margin-right: 5%;
+  display: inline-block;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+div.gallery:hover {
+  border: 7px solid rgb(255, 255, 255);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* --KONTAKT --*/
+.Kontakt {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  padding: 1px 1px;
+  margin-bottom: 40%;
+}
+
+input[type="submit"] {
+  background-color: rgb(122, 7, 7);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#email-number {
+  font-size: 30px;
+  background-color: rgb(122, 7, 7);
+  padding: 20px;
+  color: white;
+}
+
+div form p {
+  font-size: medium;
+  color: black;
+  text-shadow: none;
+  margin-top: 0%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.SAADA_JA_CLAIMER {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-row-start: 1fr;
+  grid-column-start: 1fr;
+}
+
+#CLAIMER {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+/*-- FOOTER --*/
+footer {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
